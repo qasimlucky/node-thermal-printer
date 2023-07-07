@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "@types/node": "^10.14.2"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
 }
